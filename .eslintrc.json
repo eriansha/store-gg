@@ -1,3 +1,81 @@
 {
-  "extends": "next/core-web-vitals"
-}
+    "extends": "next/core-web-vitals",
+    "rules": {
+        "template-curly-spacing": "off",
+        "indent": [
+        "warn",
+        2,
+        {
+            "ignoredNodes": ["TemplateLiteral"],
+            "SwitchCase": 1
+        }
+        ],
+        "semi": [
+        "warn",
+        "never"
+        ],
+        "quotes": [
+        "error",
+        "single"
+        ],
+        "comma-dangle": [
+        "warn",
+        "never"
+        ],
+        "no-unused-vars":[
+        "warn"
+        ],
+        "arrow-parens": [
+        2,
+        "always"
+        ],
+        "implicit-arrow-linebreak": [
+        "error",
+        "beside"
+        ],
+        "arrow-body-style": [
+        "warn",
+        "as-needed"
+        ],
+        "function-call-argument-newline": [
+        "error",
+        "consistent"
+        ],
+        "object-curly-spacing": [
+        2,
+        "always"
+        ],
+        "key-spacing": [
+        "warn",
+        {
+            "align": {
+            "beforeColon": true,
+            "afterColon": true,
+            "on": "colon"
+            }
+        }
+        ],
+        "react/jsx-closing-bracket-location": [
+        1,
+        "tag-aligned"
+        ],
+        "react/jsx-curly-spacing": [
+        "warn",
+        {
+            "when": "always",
+            "children": true,
+            "spacing": {
+                "objectLiterals": "never"
+            }
+        }
+        ],
+        "linebreak-style": [
+        "error",
+        "unix"
+        ],
+        "react/prop-types": 1
+    },
+    "globals": {
+        "React": "writable"
+    }
+  }
