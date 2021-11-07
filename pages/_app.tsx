@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Script from 'next/script'
 import '../styles/utilities.css'
 import '../styles/homepage.css'
+import '../styles/detail.css'
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
   <>

@@ -79,11 +79,11 @@ const Home: NextPage = () => {
                       Topup & Get <span className="d-sm-inline d-none">a</span><span className="d-sm-none d-inline">a
                 </span><span className="underline-blue"> New</span> <br className="d-sm-block d-none" /> <span
                   className="underline-blue"
-                                                                                                         >Experience</span> in Gaming
+                >Experience</span> in Gaming
               </h1>
               <p className="mt-30 mb-40 text-lg color-palette-1">Kami menyediakan jutaan cara untuk membantu<br
                 className="d-md-block d-none"
-                                                                                                            /> players menjadi pemenang sejati
+              /> players menjadi pemenang sejati
               </p>
               <div className="d-flex flex-lg-row flex-column gap-4">
                 <a className="btn btn-get text-lg text-white rounded-pill" href="#feature" role="button">Get
@@ -466,7 +466,7 @@ const Home: NextPage = () => {
                 </h2>
                 <p className="text-lg color-palette-1 mb-30">Kami menyediakan jutaan cara untuk<br
                   className="d-sm-block d-none"
-                                                                                               />
+                />
                           membantu players menjadi<br className="d-sm-block d-none" /> pemenang sejati</p>
                 <div className="d-md-block d-flex flex-column w-100">
                   <a className="btn btn-read text-lg rounded-pill" href="#" role="button">Read Story</a>
