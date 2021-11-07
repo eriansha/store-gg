@@ -47,7 +47,7 @@ export default function Checkout() {
             <h2 className="fw-bold text-xl color-palette-1 mb-20">Purchase Details</h2>
             <p className="text-lg color-palette-1 mb-20">Your Game ID <span
               className="purchase-details"
-            >masayoshizero</span></p>
+                                                                      >masayoshizero</span></p>
             <p className="text-lg color-palette-1 mb-20">Order ID <span className="purchase-details">#GG001</span></p>
             <p className="text-lg color-palette-1 mb-20">Item <span className="purchase-details">250 Diamonds</span></p>
             <p className="text-lg color-palette-1 mb-20">Price <span className="purchase-details">Rp 42.280.500</span></p>
@@ -75,7 +75,7 @@ export default function Checkout() {
           </label>
           <div className="d-md-block d-flex flex-column w-100 pt-50">
             <a className="btn btn-confirm-payment rounded-pill fw-medium text-white border-0 text-lg"
-              href="./complete-checkout.html" role="button"
+              href="/complete-checkout" role="button"
             >Confirm
                     Payment</a>
           </div>
