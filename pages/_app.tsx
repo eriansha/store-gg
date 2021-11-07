@@ -4,6 +4,7 @@ import Script from 'next/script'
 import '../styles/utilities.css'
 import '../styles/homepage.css'
 import '../styles/detail.css'
+import '../styles/checkout.css'
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
   <>

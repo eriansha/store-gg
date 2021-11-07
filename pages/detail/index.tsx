@@ -30,7 +30,7 @@ export default function Detail() {
                 <p className="text-lg color-palette-2 mb-0">Category: Mobile</p>
               </div>
               <hr />
-              <form action="./checkout.html" method="POST">
+              <form action="./checkout" method="POST">
                 <div className="pt-md-50 pt-30">
                   <div className="">
                     <label htmlFor="ID" className="form-label text-lg fw-medium color-palette-1 mb-10">Verify
@@ -215,7 +215,7 @@ export default function Detail() {
                   />
                 </div>
                 <div className="d-sm-block d-flex flex-column w-100">
-                  <a href="./checkout.html" type="submit"
+                  <a href="/checkout" type="submit"
                     className="btn btn-submit rounded-pill fw-medium text-white border-0 text-lg"
                   >Continue</a>
 
