@@ -51,7 +51,7 @@ export default function SignIn() {
                   href="/" role="button"
                 >Continue to Sign In</a>
                 <a className="btn btn-sign-up fw-medium text-lg color-palette-1 rounded-pill"
-                  href="../src/sign-up.html" role="button"
+                  href="/sign-up" role="button"
                 >Sign
                             Up</a>
               </div>
