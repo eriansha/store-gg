@@ -64,7 +64,7 @@ export default function Transaction() {
                       </div>
                     </td>
                     <td>
-                      <a href="../member/transactions-detail.html"
+                      <a href="/member/transactions/detail"
                         className="btn btn-status rounded-pill text-sm"
                       >Details</a>
                     </td>
@@ -94,7 +94,7 @@ export default function Transaction() {
                       </div>
                     </td>
                     <td>
-                      <a href="../member/transactions-detail.html"
+                      <a href="/member/transactions/detail"
                         className="btn btn-status rounded-pill text-sm"
                       >Details</a>
                     </td>
@@ -124,7 +124,7 @@ export default function Transaction() {
                       </div>
                     </td>
                     <td>
-                      <a href="../member/transactions-detail.html"
+                      <a href="/member/transactions/detail"
                         className="btn btn-status rounded-pill text-sm"
                       >Details</a>
                     </td>
@@ -154,7 +154,7 @@ export default function Transaction() {
                       </div>
                     </td>
                     <td>
-                      <a href="../member/transactions-detail.html"
+                      <a href="/member/transactions/detail"
                         className="btn btn-status rounded-pill text-sm"
                       >Details</a>
                     </td>
