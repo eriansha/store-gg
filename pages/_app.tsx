@@ -15,6 +15,7 @@ import '../styles/overview.css'
 import '../styles/sidebar.css'
 import '../styles/transactions.css'
 import '../styles/transactions-detail.css'
+import '../styles/edit-profile.css'
 
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
