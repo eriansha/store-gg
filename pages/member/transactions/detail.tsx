@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 
 export default function TransactionsDetail() {
   return (
@@ -49,7 +49,9 @@ export default function TransactionsDetail() {
                 />
               </svg>
               <p className="item-title m-0">
-                <a href="/member/transactions" className="text-lg text-decoration-none">Transactions</a>
+                <Link href='/member/transactions'>
+                  <a className="text-lg text-decoration-none">Transactions</a>
+                </Link>
               </p>
             </div>
             <div className="item mb-30">
@@ -133,7 +135,10 @@ export default function TransactionsDetail() {
                 </defs>
               </svg>
               <p className="item-title m-0">
-                <a href="/member/edit-profile" className="text-lg text-decoration-none">Settings</a>
+
+                <Link href='/member/edit-profile'>
+                  <a className="text-lg text-decoration-none">Settings</a>
+                </Link>
               </p>
             </div>
             <div className="item mb-30">
@@ -185,10 +190,10 @@ export default function TransactionsDetail() {
                   <h2 className="fw-bold text-xl color-palette-1 mb-20">Purchase Details</h2>
                   <p className="text-lg color-palette-1 mb-20">Your Game ID <span
                     className="purchase-details"
-                  >masayoshizero</span></p>
+                                                                            >masayoshizero</span></p>
                   <p className="text-lg color-palette-1 mb-20">Order ID <span
                     className="purchase-details"
-                  >#GG001</span></p>
+                                                                        >#GG001</span></p>
                   <p className="text-lg color-palette-1 mb-20">Item <span className="purchase-details">250
                                         Diamonds</span></p>
                   <p className="text-lg color-palette-1 mb-20">Price <span className="purchase-details">Rp
@@ -198,24 +203,24 @@ export default function TransactionsDetail() {
                   </p>
                   <p className="text-lg color-palette-1 mb-20">Total <span
                     className="purchase-details color-palette-4"
-                  >Rp
+                                                                     >Rp
                                         55.000.600</span></p>
                 </div>
                 <div className="payment pt-10 pb-10">
                   <h2 className="fw-bold text-xl color-palette-1 mb-20">Payment Informations</h2>
                   <p className="text-lg color-palette-1 mb-20">Your Account Name <span
                     className="purchase-details"
-                  >Masayoshi
+                                                                                 >Masayoshi
                                         Angga Zero</span></p>
                   <p className="text-lg color-palette-1 mb-20">Type <span className="payment-details">Worldwide
                                         Transfer</span>
                   </p>
                   <p className="text-lg color-palette-1 mb-20">Bank Name <span
                     className="payment-details"
-                  >Mandiri</span></p>
+                                                                         >Mandiri</span></p>
                   <p className="text-lg color-palette-1 mb-20">Bank Account Name <span
                     className="payment-details"
-                  >PT Store GG
+                                                                                 >PT Store GG
                                         Indonesia</span></p>
                   <p className="text-lg color-palette-1 mb-20">Bank Number <span className="payment-details">1800
                                         - 9090 -
